@@ -1,0 +1,10 @@
+@media (max-width: 620px) {
+
+    #menu {
+
+        .limita-largura {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+}
+
+.limita-largura {
+    max-width: 1024px;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px #cecece;
+
+    .limita-largura {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        #logo {
+
+            h1 {
+                font-weight: normal;
+                font-size: 25px
+            }
+
+            span {
+                color: #7e98b6;
+            }
+        }
+
+        #navegacao {
+            display: flex;
+            gap: 30px;
+
+            .nav-itens {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
