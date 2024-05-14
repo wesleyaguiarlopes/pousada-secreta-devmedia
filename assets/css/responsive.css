@@ -7,4 +7,14 @@
             justify-content: center;
         }
     }
+
+    #banner {
+        margin-top: 82px;
+        height: calc(100vh - 82px);
+    }
+
+    #banner-quartos {
+        margin-top: 82px;
+        height: calc(30vh - 82px);
+    }
 }

@@ -51,3 +51,39 @@ body {
         }
     }
 }
+
+#banner, #banner-quartos {
+    margin-top: 62px;
+    height: calc(100vh - 62px);
+    background-image: url(../image/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .conteudo {
+        color: #fff;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        background-color: rgba(35, 163, 137, 0.699);
+        text-align: center;
+        padding: 30px 20px;
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 54px;
+        }
+
+        h3 {
+            font-weight: normal;
+            font-size: 28px;
+        }
+    }
+}
+
+#banner-quartos {
+    height: calc(200px - 62px);
+    background-position: top;
+}
