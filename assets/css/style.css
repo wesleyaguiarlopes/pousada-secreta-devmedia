@@ -180,3 +180,41 @@ body {
         }
     }
 }
+
+#footer {
+    background-color: #49997c;
+    color: #fff;
+    padding: 10px;
+
+    .contatos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+        > div {
+            flex-basis: 230px;
+            margin: 10px auto;
+        }
+
+        .com-icone {
+            display: flex;
+
+            > p {
+                margin-left: 10px;
+            }
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .copyright {
+        border-top: 2px solid #408d71;
+        padding: 20px;
+        text-align: center;
+    }
+}
