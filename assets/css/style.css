@@ -129,11 +129,52 @@ body {
 
 #rota {
     margin: 62px auto;
-    text-align: center;
 
     iframe {
         margin-top: 30px;
         width: 100%;
         height: 300px;
+    }
+}
+
+#sobre {
+    margin: 62px auto;
+
+    .cards {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 10px;
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%;
+            margin: 0 auto;
+
+            .conteudo {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 350px;
+                height: 110px;
+            }
+
+            .container-image {
+                width: 100px;
+                height: 110px;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
     }
 }
