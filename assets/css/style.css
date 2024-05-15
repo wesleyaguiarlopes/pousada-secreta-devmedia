@@ -16,10 +16,12 @@ body {
     font-weight: normal;
     margin-bottom: 20px;
     font-size: 32px;
+    text-align: center;
 }
 
 .informacoes {
     margin: 0 10px 10px 10px;
+    text-align: center;
 }
 
 #menu {
@@ -100,7 +102,6 @@ body {
 
 #bem-vindo {
     margin: 62px auto;
-    text-align: center;
 
     .fotos {
         display: flex;
@@ -121,7 +122,8 @@ body {
             h2 {
                 padding: 20px;
                 font-weight: 600;
-                font-size: 17px
+                font-size: 17px;
+                text-align: center;
             }
         }
     }
