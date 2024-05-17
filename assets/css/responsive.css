@@ -17,4 +17,21 @@
         margin-top: 82px;
         height: calc(30vh - 82px);
     }
+
+    .quarto {
+        margin: 0 auto;
+        padding: 63px 10px;
+
+        .fotos {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            img {
+                width: 270px;
+                flex-grow: 1;
+            }
+        }
+    }
 }
